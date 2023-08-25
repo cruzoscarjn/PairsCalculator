@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "strictNullChecks": true,
+    "importHelpers": true,
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ],
+  "typeAcquisition": {
+    "include": ["node"],
+    "enable": true
+  },
+}
